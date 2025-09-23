@@ -1,0 +1,24 @@
+name: BeaconRanger
+version: ${version}
+main: de.thelion.beaconranger.BeaconRanger
+api-version: "1.20"
+folia-supported: true
+authors: [TheLion]
+description: |
+  Erweitert die Reichweite von Beacons und lädt die Chunks automatisch
+  Kompatibel mit Paper 1.20.x und 1.21.x
+
+commands:
+  beaconranger:
+    description: Steuert die Beacon-Reichweite
+    usage: |
+      /<command> reload - Lädt die Konfiguration neu
+      /<command> size [Zahl] - Ändert die Beacon-Reichweite (10-1000)
+      /<command> info - Zeigt die aktuelle Reichweite an
+    aliases: [beac]
+    permission: beaconranger.admin
+
+permissions:
+  beaconranger.admin:
+    description: Erlaubt die Nutzung aller BeaconRanger-Befehle
+    default: op
