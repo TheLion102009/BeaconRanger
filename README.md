@@ -5,7 +5,7 @@ AdjustableBeaconRange is a Minecraft plugin that allows you to customize the ran
 ## Features
 
 - Adjust beacon range via the configuration file.
-- Fully compatible with Minecraft 1.21.x.
+- Fully compatible with Minecraft folia/paper 1.21.x.
 - Works with Paper and Folia for optimal server performance.
 - Simple setup, no complicated commands required.
 
